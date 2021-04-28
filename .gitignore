@@ -15,3 +15,8 @@
 local.properties
 /**/.idea/*
 .idea/*
+build
+.idea
+/.idea/*
+.gradle
+gradle
