@@ -1,6 +1,7 @@
 package coml.sample.poc.utility;
 
 
+//import coml.sample.poc.di.DaggerAppComponent;
 import coml.sample.poc.di.DaggerAppComponent;
 import dagger.android.AndroidInjector;
 import dagger.android.support.DaggerApplication;
