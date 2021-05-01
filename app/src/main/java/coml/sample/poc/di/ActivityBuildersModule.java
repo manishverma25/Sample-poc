@@ -10,7 +10,8 @@ import dagger.android.ContributesAndroidInjector;
 public abstract class ActivityBuildersModule {
 
 
-    @ContributesAndroidInjector
+    @ContributesAndroidInjector (  modules = {AuthViewModelsModule.class})
+
     public abstract AuthActivity contributeAuthActivity();
 
     @Provides
